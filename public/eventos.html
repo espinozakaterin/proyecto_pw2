@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web</title>
+    <link rel="stylesheet" href="less/style.less">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header class="header" id="inicio">
+        <div class="Menu">
+            <H1>Menu</H1>
+        </div>
+        <img class="hamburguer" src="img/hamburguesa.svg" alt="">
+        <nav class="menu-navegacion">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Acerca de nosotras</a>
+            <a href="programas.html">Nuestros programas</a>
+            <a href="ayudar.html">Cómo ayudar</a>
+            <a href="galeria.html">Galería</a>
+            <a href="preguntas.html">Preguntas frecuentes</a>
+            <a href="blog.html">Blog</a>
+            <a href="donaciones.html">Donaciones</a>
+            <a href="contactos.html">Contacto</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">SKARSHOP</h1>
+            <p class="copy">¡Hola y bienvenidos a Skarshop! Nos alegra tenerte aquí. Somos tu destino
+                en línea para las últimas tendencias en moda, donde la calidad y el estilo se encuentran.
+            </p>
+        </div>
+    </header>
+    <main>
+
+        <section class="pruebaMA">
+            <h1 class="title">Eventos en nuestra tienda:</h1>
+
+            <div class="container">
+                <div class="card">
+                    <img src="fotos/Rifas.png" alt="Rifas">
+                    <h3>Rifas</h3>
+                    <p>Participa en nuestras rifas semanales y gana productos exclusivos de nuestra tienda.
+                        Cada semana, sorteamos prendas de nuestras últimas colecciones, accesorios de moda y
+                        cupones de descuento. ¡No te lo pierdas!</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <img src="fotos/concursos.jpg" alt="Concursos de Diseño">
+                    <h3>Concursos de Diseño</h3>
+                    <p>Muestra tu talento en nuestros concursos de diseño de moda. Presenta tus mejores creaciones y
+                        compite por la oportunidad de ver tus diseños en nuestra tienda. Los ganadores recibirán premios
+                        increíbles y reconocimiento en nuestras redes sociales.</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <img src="fotos/Desfiles.jpg" alt="Desfiles de Moda">
+                    <h3>Desfiles de Moda</h3>
+                    <p>Asiste a nuestros desfiles de moda y descubre las últimas tendencias de la temporada.
+                        Estos eventos exclusivos te permitirán ver nuestras nuevas colecciones antes que nadie
+                        y disfrutar de una experiencia única de moda en vivo.</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <img src="fotos/Talleres.jpg" alt="Talleres de Estilo">
+                    <h3>Talleres de Estilo</h3>
+                    <p>Únete a nuestros talleres de estilo y aprende a combinar prendas para diferentes ocasiones.
+                        Nuestros estilistas expertos te guiarán para que descubras tu propio estilo y saques el máximo
+                        partido a tu guardarropa. ¡Inscríbete ya!</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <img src="fotos/Eventos.jpg" alt="Eventos Especiales">
+                    <h3>Eventos Especiales</h3>
+                    <p>Participa en nuestros eventos especiales y disfruta de experiencias únicas en nuestra tienda.
+                        Desde lanzamientos de colecciones hasta fiestas de temporada, siempre hay algo emocionante
+                        sucediendo en Skarshop. Mantente al tanto de nuestros próximos eventos.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <img src="fotos/Logo-Skarshop.png" alt="Logo Skarshop" width="60%">
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/skarshop07?mibextid=LQQJ4d" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://www.instagram.com/skarshop7?igsh=MWVuOXZuYXFtNTBseQ==" class="social-media-icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+
+        <script>
+
+            document.addEventListener("DOMContentLoaded", () => {
+                setTimeout(() => {
+                    document.querySelector(".spinner-background").style.display = "none";
+                }, 400);
+            });
+        </script>
+
+        <script src="js/menu.js"></script>
+        <script src="js/lightbox.js"></script>
+        <script src="js/questions.js"></script>
+</body>
+ 
+
+</html>
